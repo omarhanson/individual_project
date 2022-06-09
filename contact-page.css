@@ -1,0 +1,196 @@
+/* fonttype */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700&family=Lato:wght@300&display=swap");
+
+/* header_Section */
+header {
+  height: 200px;
+  /* background-image: url(/image/heading-img/contactcentre.PNG); */
+  background-color: #e0ddaa;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  margin-top: 50px;
+  background-position: bottom;
+}
+
+/* navigation_Section */
+nav {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-right: 2%;
+  opacity: 0.9;
+  list-style: none;
+  text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  font-weight: bold;
+  /* font-family: ; */
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #323232;
+  background-color: #e0ddaa;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #323232;
+  background-color: #e0ddaa;
+}
+
+.red {
+  color: #ff0000;
+}
+
+a:focus {
+  color: #323232;
+  background-color: #e0ddaa;
+}
+
+/* mainheading_Section */
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 3%;
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 1%;
+}
+
+/* paragrapgh_Section */
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  padding: none;
+  margin-left: 1%;
+  font-size: 18px;
+}
+
+/* anchor_Section */
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body {
+  /* width:100%;     */
+  min-width: 1000px;
+  margin: 0%;
+  height: auto;
+}
+
+/* * {box-sizing: border-box;} */
+
+/* form_Section */
+.color {
+  background-color: #203239;
+  color: #fff;
+  text-align: left;
+
+  padding: 2%;
+
+  margin: 0%;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #eeedde;
+  padding: 40px;
+}
+
+.slideup {
+  margin: 2%;
+  text-align: left;
+  background-color: #203239;
+  padding: 1%;
+
+  color: #fff;
+}
+
+.slide {
+  margin-bottom: 2%;
+}
+
+footer {
+  display: flex;
+  background-color: #141e27;
+  width: 100%;
+  height: 215px;
+  color: white;
+}
+
+.col {
+  display: block;
+  width: 100%;
+}
+
+.col,
+span {
+  display: block;
+  margin: 8px;
+}
+
+.copy {
+  margin-top: 15%;
+}
+
+h3 {
+  clear: both;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}

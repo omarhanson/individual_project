@@ -1,0 +1,57 @@
+div 
+{
+    text-align: center;
+    background-color: darkseagreen;
+    width: 60%;
+   height: 550px;
+   margin-top: 2%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 5%;
+   margin-bottom: 5%;
+   padding-bottom: 2%;
+}
+
+img 
+{
+    margin-top: 2%;
+    height: 60%;
+    border-radius: 55%;
+}
+
+a:active
+{
+    color: white;
+}
+    
+a:hover 
+{
+color: white;
+}
+
+p
+{
+    color: black;
+    font-weight: bold;
+
+}
+
+a
+ {
+    background-color: brown;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+
+@media screen and (max-width: 992px) {
+    body img {
+      width: 60%;
+    }
+  }

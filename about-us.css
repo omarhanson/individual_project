@@ -1,0 +1,268 @@
+/* fonttype */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700&family=Lato:wght@300&display=swap");
+
+/* header_Section */
+header {
+  height: 200px;
+  /* background-image: url(/image/heading-img/shakehand.PNG); */
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 50px;
+  background-color: #e0ddaa;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* navigation_Section */
+/*  */
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+  list-style: none;
+  text-align: right;
+  padding-right: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1%;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.red {
+  color: #ff0000;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #323232;
+  background-color: #e0ddaa;
+}
+
+a:focus {
+  background-color: #e0ddaa;
+  color: #323232;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #323232;
+  background-color: #e0ddaa;
+}
+
+/* heading_Section */
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 3%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000000, 0 0 5px darkblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 1%;
+}
+
+/* paragrapgh_Section */
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: none;
+  margin-left: 1%;
+  font-size: 18px;
+}
+
+/* anchor_Section */
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* body_Section */
+
+body {
+  /* width:100%;     */
+  background-color: #eeedde;
+  margin: 0%;
+  min-width: 1000px;
+  height: auto;
+}
+
+hr {
+  display: block;
+  border: 1px solid;
+  width: 100%;
+}
+
+/* profile_Section */
+
+img {
+  width: 20%;
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 5%;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  gap: 2%;
+}
+
+.column {
+  flex-basis: 100%;
+  background-color: #e0ddaa;
+  text-align: center;
+  border-radius: 5%;
+  margin: 2%;
+}
+
+/* .column{
+   
+   width: 25%; 
+  padding: 5px;  
+  height: 430px; 
+  float: left;
+  background-color:#E0DDAA ;
+  color: #323232;
+   margin: 2%;     
+  text-align: center;
+  border-radius: 5%;
+  margin-left: 5%;   
+  
+}  */
+
+.slideup {
+  margin: 2%;
+
+  text-align: left;
+  background-color: #203239;
+  padding: 1%;
+
+  color: #fff;
+}
+
+.slide {
+  margin-bottom: 4%;
+}
+
+/* footer_Section */
+
+footer {
+  display: flex;
+  background-color: #141e27;
+  width: 100%;
+  height: 220px;
+  padding-bottom: 2%;
+  color: #fff;
+}
+
+.col {
+  display: block;
+  width: 100%;
+}
+
+.col,
+span {
+  display: block;
+  margin: 8px;
+}
+
+.copy {
+  margin-top: 15%;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* print_Section */
+
+/* @media print {
+    footer {page-break-after: always;}
+  } */
+
+.underline {
+  text-decoration: underline;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: #fff;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+/* .container::after, 
+.row::after { 
+content: "";
+clear: both;
+display: table;
+}    */
+
+.title {
+  color: #323232;
+  font-weight: 400;
+}
+
+.email {
+  color: #141e27;
+}
+
+.email:hover {
+  color: #fff;
+}
+
+.email:focus {
+  color: #fff;
+  background-color: #203239;
+}
+
+.button {
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  outline: 0;
+  display: inline-block;
+  padding: 4%;
+  color: #fff;
+  background-color: #323232;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:focus {
+  background-color: #eeedde;
+  color: #141e27;
+}
