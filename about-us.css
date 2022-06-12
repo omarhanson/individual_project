@@ -1,6 +1,6 @@
 /* fonttype */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700&family=Lato:wght@300&display=swap");
 
 /* header_Section */
@@ -19,7 +19,7 @@ header {
 /*  */
 
 nav {
-  background-color: #fff;
+  background-color: #203239;
   width: 100%;
   position: fixed;
   top: 0;
@@ -32,7 +32,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 1%;
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -138,21 +138,6 @@ img {
   margin: 2%;
 }
 
-/* .column{
-   
-   width: 25%; 
-  padding: 5px;  
-  height: 430px; 
-  float: left;
-  background-color:#E0DDAA ;
-  color: #323232;
-   margin: 2%;     
-  text-align: center;
-  border-radius: 5%;
-  margin-left: 5%;   
-  
-}  */
-
 .slideup {
   margin: 2%;
 
@@ -198,11 +183,6 @@ span {
   box-sizing: border-box;
 }
 
-/* print_Section */
-
-/* @media print {
-    footer {page-break-after: always;}
-  } */
 
 .underline {
   text-decoration: underline;
@@ -218,13 +198,6 @@ span {
 .container {
   padding: 0 16px;
 }
-
-/* .container::after, 
-.row::after { 
-content: "";
-clear: both;
-display: table;
-}    */
 
 .title {
   color: #323232;
@@ -252,7 +225,7 @@ display: table;
   display: inline-block;
   padding: 4%;
   color: #fff;
-  background-color: #323232;
+  background-color: #203239;
   text-align: center;
   cursor: pointer;
   width: 100%;

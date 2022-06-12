@@ -1,11 +1,11 @@
 /* fonttype */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700&family=Lato:wght@300&display=swap");
 
 /* Navigation_Section */
 nav {
-  background-color: #fff;
+  background-color: #203239;
   width: 100%;
   position: fixed;
   top: 0;
@@ -17,7 +17,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   padding: 1%;
   text-transform: uppercase;
   font-size: 14px;
@@ -51,7 +51,7 @@ a:focus {
   gap: 0.5%;
   display: flex;
   margin-top: 50px;
-  height: 180px;
+  height: 180px; 
 }
 /* heading */
 h1 {
@@ -146,14 +146,14 @@ address p {
   display: flex;
   font-size: 20px;
   border: #000000 2px solid;
-  height: 150px;
+  height: 150px; 
 }
 
 .border2 {
   display: flex;
   font-size: 20px;
 
-  height: 100px;
+  height: 100px; 
 }
 
 .border ul {
@@ -165,7 +165,7 @@ address p {
 }
 
 ol {
-  border: #000000 2px solid;
+  border: #000000 2px solid; 
   margin: 2%;
   background-color: #e0ddaa;
   border-radius: 10px;
@@ -236,19 +236,19 @@ a {
 body {
   /* width:100%;      */
   min-width: 1000px;
-  height: auto;
+  height: auto; 
   background-color: #eeedde;
   margin: 0%;
 }
 
 /* img{ margin: 1.6%;} */
 
-.background {
+/* .background {
   width: 100%;
 
-  height: 300px;
+  height: 300px; 
   color: #fff;
-}
+} */
 
 .slideup {
   margin: 2%;
@@ -274,9 +274,10 @@ body {
   display: flex;
   background-color: #141e27;
   width: 100%; 
-  height: 215px; 
-    padding-bottom: 2%;  
+   /* height: 215px;   */
+     padding-bottom: 2%;  
   color: #fff;
+  
 }
 
 .col {
@@ -287,10 +288,10 @@ body {
 .col,
 span {
   display: block;
-  margin: 8px;
+   margin: 8px; 
 }
 
 .copy {
-  margin-top: 15%;
-} 
+   margin-top: 15%;  
+}  
 

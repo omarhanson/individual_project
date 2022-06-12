@@ -65,7 +65,7 @@ h2 {
 
 /* Navigation_Section */
 nav {
-  background-color: #fff;
+  background-color: #203239;
   width: 100%;
   position: fixed;
   top: 0;
@@ -81,7 +81,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #323232;
+  color: #fff;
   position: static;
   top: 0;
   text-transform: uppercase;
