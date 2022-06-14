@@ -116,7 +116,7 @@ body{ /* width:100%; */
 
  .column {float: left;
  width: 24%;
- 
+ text-align: center;
  padding: 5px; 
  margin-left: 1%;}
             
