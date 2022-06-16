@@ -37,6 +37,8 @@ h1,  h2,  h3,  h4,  h5, h6
  padding: none;
    margin-left: 1%;   
  font-size: 18px; }  
+
+ .column, caption{font-weight: bold;}
  
  /* anchor_Section */
 a{text-decoration: none;

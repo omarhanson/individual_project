@@ -168,6 +168,8 @@ p {
   font-size: 18px;
 }
 
+.column, caption{font-weight: bold;}
+
 .pagenumber {
   margin-left: 3%;
   display: inline-block;
