@@ -92,11 +92,12 @@ a:hover{background-color: #E0DDAA;
 
 
 /* body_Section */
- body{   /* width:100%;      */
+ body{   
     margin: 0%;
      background-color: #EEEDDE;  
-      min-width:1000px;  
-      height:auto;}    
+      min-width:1000px;    
+      height: auto;
+    }    
 
 .body{background-color: #EEEDDE; 
     background-size: cover;}
