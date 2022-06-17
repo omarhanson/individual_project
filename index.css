@@ -127,15 +127,16 @@ address p {
   display: inline-block;
 }
 
-.why {
-  border: #000000 2px solid;
-  margin-top: 2%;
+.why{
+  border: #000000 2px solid; 
+  margin-top: 2%; 
   margin-bottom: 0;
-  height: 80px;
+  height: 80px;  
   text-transform: capitalize;
   background-color: #203239;
-  text-align: left;
 }
+
+
 
 .block {
   width: 70%;
@@ -143,10 +144,10 @@ address p {
 }
 
 .border {
-  display: flex;
   font-size: 20px;
   border: #000000 2px solid;
-  height: 150px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .border2 {
@@ -154,10 +155,6 @@ address p {
   font-size: 20px;
 
   height: 100px; 
-}
-
-.border ul {
-  flex-basis: 100%;
 }
 
 .border2 ul {
@@ -182,6 +179,7 @@ ol {
 .choose {
   margin: 2%;
   color: #fff;
+  text-align: left;
 }
 
 .underline {
