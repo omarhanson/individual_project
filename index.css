@@ -20,6 +20,7 @@ background-repeat: none;
 background-size: cover;
 color: #fff;
 height: 400px;
+color: #fff;
 }
 nav a {
   text-decoration: none;
@@ -74,9 +75,23 @@ h2 {
 }
 
 .star {
-  color: orange;
+  color: #ffa500;
   margin: 2%;
   margin-top: 1%;
+}
+
+.stars{
+  margin: 2%;
+  margin-top: 1%;
+}
+
+ .orange{color: #ffa500;}
+
+ .display {
+  width: 20%;
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 5%;
 }
 
 .simple1 {
@@ -127,12 +142,15 @@ address p {
   display: inline-block;
 }
 
+ 
+
 .phonenumber {
   color: #000000;
   font-size: 60px;
   font-weight: 900;
 color: #fff;
   display: inline-block;
+  
 }
 
 .why{
@@ -154,11 +172,59 @@ color: #fff;
 
 .border {
   font-size: 20px;
-  border: #000000 2px solid;
+   /* border: #000000 2px solid;  */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+  /* background-color: #e0ddaa; */
 }
+
+li{border: #323232 2px solid;
+border-radius: 10%;
+background-color: #e0ddaa;
+color: #323232;
+margin: 10px;
+text-align: center;
+}
+
+
+.services{display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-items: center;
+}
+
+
+.services .serviceimg{
+   width: 50%; 
+   height: 200px; 
+  margin-bottom: 24px;
+}
+
+
+/* .serviceimg{  width: 20%;
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 5%;}   */
+
+
+
+.testimonial{background-color: #e0ddaa;
+height: 300px;}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  
+}
+
+.column {
+  flex-basis: 100%;
+  background-color: #e0ddaa; 
+  text-align: center;
+  border-radius: 5%;
+  margin: 2%;
+  
+}
+
 
 .border2 {
   display: flex;
@@ -192,15 +258,18 @@ ol {
   text-align: left;
 }
 
-.underline {
+.underline{
   text-decoration: underline;
   margin: 2%;
+  text-align: left;
 }
 
 .imageone {
   flex-basis: 65%;
   height: 300px;
 }
+
+.fa-whatsapp{color: green;}
 
 .imagetwo {
   flex-basis: 30%;
@@ -236,14 +305,17 @@ a {
   font-weight: 600;
 }
 
-.info {
+ .info1{
   background-color: #eeedde;
   display: inline-block;
+  width: 100%;
 }
+
 
 body {
    min-width: 1000px;
    margin: 0; 
+   
   }
     
 
@@ -257,9 +329,10 @@ body {
 }
 
 .slide {
-  margin-bottom: 2%;
-  margin-top: 4%;
-}
+  margin-bottom: 2%; 
+   margin-top: 4%; 
+
+} 
 
 /* footer_Section  */
 

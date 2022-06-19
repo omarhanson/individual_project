@@ -1,7 +1,6 @@
 div 
 {
     text-align: center;
-    background-color: darkseagreen;
     width: 60%;
    height: 550px;
    margin-top: 2%;
@@ -15,31 +14,20 @@ div
 img 
 {
     margin-top: 2%;
-    height: 60%;
+    height: 300px;
     border-radius: 55%;
-}
-
-a:active
-{
-    color: white;
-}
-    
-a:hover 
-{
-color: white;
 }
 
 p
 {
-    color: black;
+    color: #323232;
     font-weight: bold;
-
 }
 
 a
  {
     background-color: brown;
-    color: black;
+    color: #323232;
     border: none;
     padding: 15px 32px;
     text-align: center;
